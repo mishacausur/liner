@@ -13,6 +13,8 @@
 		B6FA95932992CEDF007CD31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA95812992CEDD007CD31B /* ContentView.swift */; };
 		B6FA95942992CEDF007CD31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FA95822992CEDF007CD31B /* Assets.xcassets */; };
 		B6FA95952992CEDF007CD31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FA95822992CEDF007CD31B /* Assets.xcassets */; };
+		B6FA959F2992CEF7007CD31B /* MetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA959E2992CEF7007CD31B /* MetalHelper.swift */; };
+		B6FA95A02992CEF8007CD31B /* MetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA959E2992CEF7007CD31B /* MetalHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		B6FA95872992CEDF007CD31B /* liner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FA958D2992CEDF007CD31B /* liner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FA958F2992CEDF007CD31B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B6FA959E2992CEF7007CD31B /* MetalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				B6FA95802992CEDD007CD31B /* linerApp.swift */,
 				B6FA95812992CEDD007CD31B /* ContentView.swift */,
+				B6FA959E2992CEF7007CD31B /* MetalHelper.swift */,
 				B6FA95822992CEDF007CD31B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FA959F2992CEF7007CD31B /* MetalHelper.swift in Sources */,
 				B6FA95922992CEDF007CD31B /* ContentView.swift in Sources */,
 				B6FA95902992CEDF007CD31B /* linerApp.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FA95A02992CEF8007CD31B /* MetalHelper.swift in Sources */,
 				B6FA95932992CEDF007CD31B /* ContentView.swift in Sources */,
 				B6FA95912992CEDF007CD31B /* linerApp.swift in Sources */,
 			);
