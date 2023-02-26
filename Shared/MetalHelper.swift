@@ -13,7 +13,7 @@ struct Metal: View {
     @State private var renderer: Renderer?
     var body: some View {
         MetalRepresentable(metalView: $metalView)
-            .onAppear { renderer = .init(metal: metalView) } 
+            .onAppear { renderer = Renderer(metal: metalView) } 
     }
 }
 

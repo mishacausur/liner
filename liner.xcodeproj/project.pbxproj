@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60C1BD029ABD4C000E94E76 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B60C1BCF29ABD4C000E94E76 /* Shaders.metal */; };
+		B60C1BD129ABD4C000E94E76 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B60C1BCF29ABD4C000E94E76 /* Shaders.metal */; };
 		B6FA95902992CEDF007CD31B /* linerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA95802992CEDD007CD31B /* linerApp.swift */; };
 		B6FA95912992CEDF007CD31B /* linerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA95802992CEDD007CD31B /* linerApp.swift */; };
 		B6FA95922992CEDF007CD31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA95812992CEDD007CD31B /* ContentView.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60C1BCF29ABD4C000E94E76 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		B6FA95802992CEDD007CD31B /* linerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linerApp.swift; sourceTree = "<group>"; };
 		B6FA95812992CEDD007CD31B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6FA95822992CEDF007CD31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 			children = (
 				B6FA95802992CEDD007CD31B /* linerApp.swift */,
 				B6FA95812992CEDD007CD31B /* ContentView.swift */,
+				B60C1BCF29ABD4C000E94E76 /* Shaders.metal */,
 				B6FA95A12992D04C007CD31B /* Renderer.swift */,
 				B6FA959E2992CEF7007CD31B /* MetalHelper.swift */,
 				B6FA95822992CEDF007CD31B /* Assets.xcassets */,
@@ -188,6 +192,7 @@
 				B6FA959F2992CEF7007CD31B /* MetalHelper.swift in Sources */,
 				B6FA95922992CEDF007CD31B /* ContentView.swift in Sources */,
 				B6FA95902992CEDF007CD31B /* linerApp.swift in Sources */,
+				B60C1BD029ABD4C000E94E76 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +204,7 @@
 				B6FA95A02992CEF8007CD31B /* MetalHelper.swift in Sources */,
 				B6FA95932992CEDF007CD31B /* ContentView.swift in Sources */,
 				B6FA95912992CEDF007CD31B /* linerApp.swift in Sources */,
+				B60C1BD129ABD4C000E94E76 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
